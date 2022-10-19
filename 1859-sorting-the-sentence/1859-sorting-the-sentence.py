@@ -15,4 +15,3 @@ class Solution:
      
         s=" ".join([str(elem) for elem in newstring])
         return s
-        
