@@ -1,16 +1,16 @@
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
-        ls = []
+        listof = []
         for i in range(1,n+1):
             if i%3==0 and i%5==0:
-                ls.append("FizzBuzz")
+                listof.append("FizzBuzz")
             elif i%3==0:
-                ls.append("Fizz")
+                listof.append("Fizz")
                 
             elif i%5==0:
-                ls.append("Buzz")
+                listof.append("Buzz")
                 
             else:
-                ls.append(str(i))
+                listof.append(str(i))
                 
-        return ls
+        return listof
